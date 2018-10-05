@@ -2,7 +2,10 @@ package com.example.tglover_feelsbook;
 
 import java.util.Date;
 
-
+/**
+ * class for emotions basic constructors for different params and setter and getters
+ * @author Tristen Glover
+ */
 public class Emotion {
     private String emotion;
     private Date date;

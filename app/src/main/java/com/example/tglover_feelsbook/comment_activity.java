@@ -10,7 +10,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.Date;
-
+/*
+ * called from main activity and returns the optional comment that the user enter to the main
+ * @author Tristen glover
+ */
 public class comment_activity extends AppCompatActivity {
     private EditText commentText;
 

@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
+ * custom adapter to display the emotions in the list view of history
+ * @author Tristen Glover
  * used code from code path and edited from various resources on stack exchange.
  * https://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView
  */

@@ -30,6 +30,12 @@ import java.util.Date;
 
 import static java.sql.DriverManager.println;
 
+/**
+ * This activity id the main menu for the app the user clicks on an emotion and it adds that emotion and send them to the comment activity to do optional comment.
+ * the program also displays a count for each emotion and everytime the activity is returned to. The activity loads in an array list of emotions and evertime onResume the array
+ * list is saved into file
+ * @author Tristen Glover
+ */
 
 public class MainActivity extends AppCompatActivity {
     private static final String FILENAME = "file1.sav";
@@ -137,27 +143,7 @@ public class MainActivity extends AppCompatActivity {
                 update = true;
             }
         });
-        /*
-        Button editButton = (Button) findViewById(R.id.edit);
-        editButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                startActivity(intent);
-                NeedLoad = true;
-            }
-        });
-
-        Button deleteButton = (Button) findViewById(R.id.delete);
-        deleteButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Deletion.class);
-                startActivity(intent);
-                NeedLoad = true;
-            }
-        });
-        */
 
         Button historyButton = (Button) findViewById(R.id.history);
         historyButton.setOnClickListener(new View.OnClickListener() {

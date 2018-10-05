@@ -30,6 +30,14 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * This activity is reponsible for drsplaying the history of the emotions enterd. at the bottom of the
+ * display has two toggle switches for changeing between aditing mode and deleting mode and defult viewing.
+ * the editing mode makes the list items clickable and that allows for the contents of the selected item
+ * to be edited. Deleteing mode deltes seleted item from the lsit and updates adapter
+ * this activity loads and saves changes everytime it is used.
+ * @author Tristen Glover
+ */
 public class HistoryActivity extends AppCompatActivity {
     private static final String FILENAME = "file1.sav";
     ArrayList<Emotion> EmotionList;

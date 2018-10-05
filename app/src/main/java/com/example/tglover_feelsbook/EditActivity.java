@@ -11,6 +11,11 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+/**
+ * recieves a bundle of comment and date for editing and returns the new values back to history activity
+ * @author Tristen glover
+ */
+
 public class EditActivity extends AppCompatActivity {
 
     @Override
